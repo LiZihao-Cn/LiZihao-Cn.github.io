@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/categories/index.html</loc>
+    <loc>https://www.lizihao.xyz/contact/index.html</loc>
     
     <lastmod>2023-03-31</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/contact/index.html</loc>
+    <loc>https://www.lizihao.xyz/categories/index.html</loc>
     
     <lastmod>2023-03-31</lastmod>
     
@@ -67,7 +67,7 @@
 
   <url>
     <loc>https://www.lizihao.xyz/</loc>
-    <lastmod>2023-04-21</lastmod>
+    <lastmod>2023-04-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,49 +75,49 @@
   
   <url>
     <loc>https://www.lizihao.xyz/tags/Hexo/</loc>
-    <lastmod>2023-04-21</lastmod>
+    <lastmod>2023-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.lizihao.xyz/tags/Matery/</loc>
-    <lastmod>2023-04-21</lastmod>
+    <lastmod>2023-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.lizihao.xyz/tags/Github/</loc>
-    <lastmod>2023-04-21</lastmod>
+    <lastmod>2023-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.lizihao.xyz/tags/Vercel/</loc>
-    <lastmod>2023-04-21</lastmod>
+    <lastmod>2023-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.lizihao.xyz/tags/Waline/</loc>
-    <lastmod>2023-04-21</lastmod>
+    <lastmod>2023-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.lizihao.xyz/tags/SEO/</loc>
-    <lastmod>2023-04-21</lastmod>
+    <lastmod>2023-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.lizihao.xyz/tags/Hexo%E7%8E%AF%E5%A2%83%E8%BF%81%E7%A7%BB/</loc>
-    <lastmod>2023-04-21</lastmod>
+    <lastmod>2023-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -126,14 +126,14 @@
   
   <url>
     <loc>https://www.lizihao.xyz/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2023-04-21</lastmod>
+    <lastmod>2023-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.lizihao.xyz/categories/%E6%8A%80%E6%9C%AF/%E5%BB%BA%E7%AB%99/</loc>
-    <lastmod>2023-04-21</lastmod>
+    <lastmod>2023-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
