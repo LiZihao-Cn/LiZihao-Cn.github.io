@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.lizihao.xyz/2023/03/27/hexo-da-jian-ge-ren-zhu-ye/</loc>
+    <loc>https://www.lizihao.xyz/undefined/hexo-da-jian-ge-ren-zhu-ye/</loc>
     
     <lastmod>2023-04-21</lastmod>
     
@@ -12,6 +12,15 @@
   
   <url>
     <loc>https://www.lizihao.xyz/404/index.html</loc>
+    
+    <lastmod>2023-03-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.lizihao.xyz/categories/index.html</loc>
     
     <lastmod>2023-03-31</lastmod>
     
@@ -30,15 +39,6 @@
   
   <url>
     <loc>https://www.lizihao.xyz/contact/index.html</loc>
-    
-    <lastmod>2023-03-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.lizihao.xyz/categories/index.html</loc>
     
     <lastmod>2023-03-31</lastmod>
     
