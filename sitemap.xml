@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.lizihao.xyz/articles/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</loc>
+    <loc>https://www.lizihao.xyz/articles/3dc6ba08/</loc>
     
-    <lastmod>2023-04-21</lastmod>
+    <lastmod>2023-04-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/categories/index.html</loc>
+    <loc>https://www.lizihao.xyz/about/index.html</loc>
     
     <lastmod>2023-03-31</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/about/index.html</loc>
+    <loc>https://www.lizihao.xyz/categories/index.html</loc>
     
     <lastmod>2023-03-31</lastmod>
     
