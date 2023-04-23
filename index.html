@@ -430,6 +430,13 @@
 
 <div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
     
+        <div id="prev-cover" class="left waves-effect carousel-control">
+            <i class="icon fa fa-angle-left"></i>
+        </div>
+        <div id="next-cover" class="right waves-effect carousel-control">
+            <i class="icon fa fa-angle-right"></i>
+        </div>
+    
 
     <div class="carousel-item  white-text bg-cover about-cover">
         <div class="container">
@@ -514,6 +521,35 @@
     </div>
 
     
+        
+
+        
+            
+            <div class="carousel-item amber white-text carousel-post bg-cover"
+                 style="background-image: url('/medias/featureimages/5.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="title center-align">Hexo+Github+Vercel部署个人主页、Waline评论搭建、Hexo环境迁移、谷歌百度必应收录</div>
+                            <div class="description center-align">
+                                
+                                    写在前面： 本文为避免重复造轮子，仅简单的记录了大致的操作步骤和遇到的一些问题，详细的过程并没有一一写下，方便日后复现。主要包括从零到一建立hexo博客网站，waline的搭建和升级，整体环境迁移到另一台设备，让搜索引擎收录网站等。
+概览
+
+                                
+                            </div>
+                            <div class="cover-btns">
+                                <a href="/articles/3dc6ba08/" class="waves-effect waves-light btn"
+                                   target="_blank">
+                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    
 </div>
 
 <script>
@@ -548,8 +584,19 @@
 
         let carouselIntervalId;
         
+        // Loop to call the next cover article picture.
+        let autoCarousel = function () {
+            carouselIntervalId = setInterval(function () {
+                coverSlider.carousel('next');
+            }, 5000);
+        };
+        autoCarousel();
+        
 
         function restartPlay() {
+            
+            clearInterval(carouselIntervalId);
+            autoCarousel();
             
         };
 
@@ -602,6 +649,43 @@
 
 
 
+
+
+<div class="title"><i class="far fa-thumbs-up"></i>&nbsp;&nbsp;推荐文章</div>
+
+<div class="row">
+
+    
+    
+    <div class="col s12" >
+        
+            <div class="post-card" style="background-image: url('/medias/featureimages/5.jpg')">
+            
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                        
+                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="category">技术</a>
+                        
+                            <a href="/categories/%E6%8A%80%E6%9C%AF/%E5%BB%BA%E7%AB%99/" class="category">建站</a>
+                        
+                    
+                </div>
+                <a href="/articles/3dc6ba08/">
+                    <h3 class="post-title">Hexo+Github+Vercel部署个人主页、Waline评论搭建、Hexo环境迁移、谷歌百度必应收录</h3>
+                </a>
+                <p class="post-description">写在前面： 本文为避免重复造轮子，仅简单的记录了大致的操作步骤和遇到的一些问题，详细的过程并没有一一写下，方便日后复现。主要包括从零到一建立hexo博客网站，waline</p>
+                <a href="/articles/3dc6ba08/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
+                    <i class="icon far fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+
                     </div>
                     
                 </div>
@@ -623,7 +707,7 @@
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Hexo+Github+Vercel部署个人主页、Waline评论搭建、Hexo环境迁移、谷歌百度必应收录">
+                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="Hexo+Github+Vercel部署个人主页、Waline评论搭建、Hexo环境迁移、谷歌百度必应收录">
                             
                             <span class="card-title">Hexo+Github+Vercel部署个人主页、Waline评论搭建、Hexo环境迁移、谷歌百度必应收录</span>
                         </div>
