@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.lizihao.xyz/articles/3dc6ba08/</loc>
+    <loc>https://lizihao-cn.github.io.git/articles/3dc6ba08/</loc>
     
     <lastmod>2023-05-16</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/articles/85771b21/</loc>
+    <loc>https://lizihao-cn.github.io.git/articles/85771b21/</loc>
     
     <lastmod>2023-05-16</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/404/index.html</loc>
+    <loc>https://lizihao-cn.github.io.git/404/index.html</loc>
     
     <lastmod>2023-03-31</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/about/index.html</loc>
+    <loc>https://lizihao-cn.github.io.git/categories/index.html</loc>
     
     <lastmod>2023-03-31</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/categories/index.html</loc>
+    <loc>https://lizihao-cn.github.io.git/about/index.html</loc>
     
     <lastmod>2023-03-31</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/contact/index.html</loc>
+    <loc>https://lizihao-cn.github.io.git/contact/index.html</loc>
     
     <lastmod>2023-03-31</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/friends/index.html</loc>
+    <loc>https://lizihao-cn.github.io.git/friends/index.html</loc>
     
     <lastmod>2023-03-31</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/tags/index.html</loc>
+    <loc>https://lizihao-cn.github.io.git/tags/index.html</loc>
     
     <lastmod>2023-03-31</lastmod>
     
@@ -75,58 +75,58 @@
   
 
   <url>
-    <loc>https://www.lizihao.xyz/</loc>
-    <lastmod>2023-05-16</lastmod>
+    <loc>https://lizihao-cn.github.io.git/</loc>
+    <lastmod>2024-01-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://www.lizihao.xyz/tags/Hexo/</loc>
-    <lastmod>2023-05-16</lastmod>
+    <loc>https://lizihao-cn.github.io.git/tags/Hexo/</loc>
+    <lastmod>2024-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/tags/Matery/</loc>
-    <lastmod>2023-05-16</lastmod>
+    <loc>https://lizihao-cn.github.io.git/tags/Matery/</loc>
+    <lastmod>2024-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/tags/Github/</loc>
-    <lastmod>2023-05-16</lastmod>
+    <loc>https://lizihao-cn.github.io.git/tags/Github/</loc>
+    <lastmod>2024-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/tags/Vercel/</loc>
-    <lastmod>2023-05-16</lastmod>
+    <loc>https://lizihao-cn.github.io.git/tags/Vercel/</loc>
+    <lastmod>2024-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/tags/Waline/</loc>
-    <lastmod>2023-05-16</lastmod>
+    <loc>https://lizihao-cn.github.io.git/tags/Waline/</loc>
+    <lastmod>2024-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/tags/SEO/</loc>
-    <lastmod>2023-05-16</lastmod>
+    <loc>https://lizihao-cn.github.io.git/tags/SEO/</loc>
+    <lastmod>2024-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/tags/Hexo%E7%8E%AF%E5%A2%83%E8%BF%81%E7%A7%BB/</loc>
-    <lastmod>2023-05-16</lastmod>
+    <loc>https://lizihao-cn.github.io.git/tags/Hexo%E7%8E%AF%E5%A2%83%E8%BF%81%E7%A7%BB/</loc>
+    <lastmod>2024-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -134,15 +134,15 @@
 
   
   <url>
-    <loc>https://www.lizihao.xyz/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2023-05-16</lastmod>
+    <loc>https://lizihao-cn.github.io.git/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2024-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.lizihao.xyz/categories/%E6%8A%80%E6%9C%AF/%E5%BB%BA%E7%AB%99/</loc>
-    <lastmod>2023-05-16</lastmod>
+    <loc>https://lizihao-cn.github.io.git/categories/%E6%8A%80%E6%9C%AF/%E5%BB%BA%E7%AB%99/</loc>
+    <lastmod>2024-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

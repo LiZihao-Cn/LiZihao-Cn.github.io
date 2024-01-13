@@ -582,7 +582,7 @@ INFO  Hexo is running at http://localhost:4000/ <span class="token keyword">.</s
 </code></pre>
 <h2 id="方式二-Hexo-vercel"><a href="#方式二-Hexo-vercel" class="headerlink" title="方式二(Hexo-vercel)"></a>方式二(Hexo-vercel)</h2><p>登陆vercel，选择从github导入已经建立好的仓库<strong>用户名.github.io</strong>（也可以导入其他存放Hexo静态文件的仓库），参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_17197675/article/details/124025934">罗某23</a><sup>[7]</sup>。<br><img src="/img/post_img/%E5%BB%BA%E7%AB%99/vercel-deploy-settings.png" alt="vercel deploy settings"> </p>
 <blockquote>
-<p><big>注意: </big>图片中的 <strong>FRAMEWORK PRESET</strong> 下面选择 <strong>other</strong>，<strong>ROOT DIRECTOR</strong> 选择 <strong>./<strong>（存放在网站根目录，与_config.yml配置文件中的 <strong>root:/</strong> 保持一致，不容易出错）。</strong>Build and Output Settings</strong> 下的选项默认为都不勾选（由于导入的是github仓库，且仓库里的静态文件在本地就已经构建好了，所以这里无需再次build，保持默认即可），<strong>Enviroment Variables</strong> 默认不填写，最后点击 <strong>Deploy</strong> 就部署好了。  </p>
+<p><big>注意: </big>图片中的 <strong>FRAMEWORK PRESET</strong> 下面选择 <strong>other</strong>，<strong>ROOT DIRECTOR</strong> 选择 <strong>./</strong> （存放在网站根目录，与_config.yml配置文件中的 <strong>root:/</strong> 保持一致，不容易出错）。<strong>Build and Output Settings</strong> 下的选项默认为都不勾选（由于导入的是github仓库，且仓库里的静态文件在本地就已经构建好了，所以这里无需再次build，保持默认即可），<strong>Enviroment Variables</strong> 默认不填写，最后点击 <strong>Deploy</strong> 就部署好了。  </p>
 </blockquote>
 <p>由于vercel国内访问较慢，需要绑定个人域名，才能正常访问。按照下图设置下vercel导入的github分支，分支名要与存储静态网站文件的分支名一致，当每次更新分支时，vercel会同步更新网站页面。<br><img src="/img/post_img/%E5%BB%BA%E7%AB%99/vercel-git-settings.png" alt="vercel git settings"></p>
 <h1 id="提交百度-x2F-必应-x2F-谷歌收录"><a href="#提交百度-x2F-必应-x2F-谷歌收录" class="headerlink" title="提交百度/必应/谷歌收录"></a>提交百度/必应/谷歌收录</h1><p>sitemap推送参考<a target="_blank" rel="noopener" href="https://itrhx.blog.csdn.net/article/details/100899489?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-100899489-blog-98593529.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-100899489-blog-98593529.pc_relevant_default&amp;utm_relevant_index=1">Hexo 博客提交百度、谷歌搜索引擎收录</a><sup>[8]</sup>，谷歌站长里面设置好了后，必应站长工具可以直接从google search console中导入。笔者的_config.yml配置如下：  </p>
@@ -630,7 +630,7 @@ INFO  Hexo is running at http://localhost:4000/ <span class="token keyword">.</s
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.lizihao.xyz/articles/3dc6ba08/">https://www.lizihao.xyz/articles/3dc6ba08/</a>
+                    <a href="https://lizihao-cn.github.io.git/articles/3dc6ba08/">https://lizihao-cn.github.io.git/articles/3dc6ba08/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1251,13 +1251,63 @@ INFO  Hexo is running at http://localhost:4000/ <span class="token keyword">.</s
 
     <footer class="page-footer bg-color">
     
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="8368325030"
+                   fixed='true'
+                   autoplay='true'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='false'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="/libs/aplayer/Meting.min.js"></script>
+
+    
 
     <div class="container row center-align"
          style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2023</span>
+                <span id="year">2023-2024</span>
             
             <a href="/about" target="_blank">lizihao</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -1536,7 +1586,7 @@ $(function () {
         <script type="text/javascript">
           var defaultEncoding = 2; //网站编写字体是否繁体，1-繁体，2-简体
           var translateDelay = 0; //延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
-          var cookieDomain = "https://www.lizihao.xyz"; //Cookie地址, 一定要设定, 通常为你的网址
+          var cookieDomain = "https://lizihao-cn.github.io.git"; //Cookie地址, 一定要设定, 通常为你的网址
           var msgToTraditionalChinese = "繁"; //此处可以更改为你想要显示的文字
           var msgToSimplifiedChinese = "简"; //同上，但两处均不建议更改
           var translateButtonId = "translateLink"; //默认互换id
